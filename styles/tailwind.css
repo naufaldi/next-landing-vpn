@@ -1,0 +1,18 @@
+/* purgecss start ignore */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap");
+@tailwind base;
+/* Start purging... */
+@tailwind components;
+/* Stop purging. */
+html {
+  font-family: "Rubik", sans-serif;
+}
+body {
+  @apply bg-white;
+}
+p {
+  @apply tracking-wide;
+}
+/* Start purging... */
+@tailwind utilities;
+/* Stop purging. */
