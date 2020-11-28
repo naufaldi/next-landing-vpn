@@ -8,10 +8,10 @@ html {
   font-family: "Rubik", sans-serif;
 }
 body {
-  @apply bg-white;
+  @apply bg-white-500;
 }
 p {
-  @apply tracking-wide;
+  @apply text-black-500;
 }
 /* Start purging... */
 @tailwind utilities;
