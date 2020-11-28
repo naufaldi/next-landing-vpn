@@ -3,7 +3,7 @@ import Image from "next/image";
 import UserIcon from "../public/assets/Icon/heroicons_sm-user.svg";
 const Hero = () => {
   return (
-    <>
+    <div className="max-w-screen-xl mt-24 px-16 mx-auto">
       <div className="grid grid-flow-col grid-cols-2 gap-8 py-16 ">
         <div className=" flex flex-col justify-center items-start">
           <h1 className="text-5xl font-medium text-black-600 leading-normal">
@@ -61,7 +61,7 @@ const Hero = () => {
           style={{ filter: "blur(114px)" }}
         ></div>
       </div>
-    </>
+    </div>
   );
 };
 

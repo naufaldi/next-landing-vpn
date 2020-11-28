@@ -18,10 +18,12 @@ module.exports = {
         500: "#2FAB73",
       },
       white: {
+        300: "#F8F8F8",
         500: "#fff",
       },
       gray: {
         100: "#EEEFF2",
+        500: "#DDDDDD",
       },
     },
     extend: {},
