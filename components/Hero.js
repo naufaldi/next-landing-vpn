@@ -6,7 +6,7 @@ const Hero = () => {
     <div className="max-w-screen-xl mt-24 px-16 mx-auto">
       <div className="grid grid-flow-col grid-cols-2 gap-8 py-16 ">
         <div className=" flex flex-col justify-center items-start">
-          <h1 className="text-5xl font-medium text-black-600 leading-normal">
+          <h1 className="text-4xl xl:text-5xl font-medium text-black-600 leading-normal">
             Want anything to be easy with <strong>LaslesVPN</strong>.
           </h1>
           <p className="text-black-500 mt-4 mb-6">
@@ -18,12 +18,16 @@ const Hero = () => {
           </button>
         </div>
         <div className="flex w-full">
-          <Image
-            src="/assets/Illustration1.png"
-            alt="VPN Illustrasi"
-            width={612}
-            height={383}
-          />
+          <div className="h-full w-full">
+            <Image
+              src="/assets/Illustration1.png"
+              alt="VPN Illustrasi"
+              quality={100}
+              width={612}
+              height={383}
+              layout="responsive"
+            />
+          </div>
         </div>
       </div>
       <div className="relative w-full flex">
