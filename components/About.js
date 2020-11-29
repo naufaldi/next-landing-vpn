@@ -3,8 +3,8 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="max-w-screen-xl mt-24 px-16 mx-auto">
-      <div className="grid grid-flow-col grid-cols-2 gap-8 py-8 mt-16">
+    <div className="max-w-screen-xl mt-14 mb-14 px-16 mx-auto">
+      <div className="grid grid-flow-col grid-cols-2 gap-8 py-8 my-12">
         <div className="flex w-full justify-end">
           <Image
             src="/assets/Illustration2.png"
