@@ -1,8 +1,7 @@
+/* purgecss start ignore */
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap");
 @tailwind base;
-/* Start purging... */
 @tailwind components;
-/* Stop purging. */
 html {
   font-family: "Rubik", sans-serif;
 }
@@ -61,6 +60,5 @@ li.check:before {
 .slick-dots .slick-active span {
   @apply bg-orange-500 rounded-l-full rounded-r-full w-12;
 }
-/* Start purging... */
+/* purgecss end ignore */
 @tailwind utilities;
-/* Stop purging. */
