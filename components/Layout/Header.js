@@ -3,6 +3,7 @@ import Link from "next/link";
 // Import react scroll
 import { Link as LinkScroll } from "react-scroll";
 import LogoVPN from "../../public/assets/Logo.svg";
+import ButtonOutline from "../misc/ButtonOutline.";
 const Header = () => {
   const [activeLink, setActiveLink] = useState(null);
   const [scrollActive, setScrollActive] = useState(false);
@@ -19,7 +20,7 @@ const Header = () => {
           (scrollActive ? " shadow-md pt-0" : " pt-4")
         }
       >
-        <nav className="max-w-screen-xl px-8 lg:px-16 mx-auto grid grid-flow-col py-4">
+        <nav className="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto grid grid-flow-col py-4">
           <div className="col-start-1 col-end-2 flex items-center">
             <LogoVPN className="h-8 w-auto" />
           </div>
@@ -99,21 +100,18 @@ const Header = () => {
           </ul>
           <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
             <Link href="/">
-              <a className="text-black-600 mx-4 capitalize tracking-wide">
+              <a className="text-black-600 mx-2 sm:mx-4 capitalize tracking-wide hover:text-orange-500 transition-all">
                   Sign In
               </a>
             </Link>
-            <button className="font-medium tracking-wide py-2 px-8 border border-orange-500 text-orange-500 bg-white-500 outline-none rounded-l-full rounded-r-full">
-              {" "}
-              Sign Up
-            </button>
+            <ButtonOutline>Sign Up</ButtonOutline>
           </div>
         </nav>
       </header>
       {/* Mobile Navigation */}
 
-      <nav className="fixed lg:hidden bottom-0 left-0 right-0 z-10 px-8 shadow-t ">
-        <div className="bg-white-500 px-3">
+      <nav className="fixed lg:hidden bottom-0 left-0 right-0 z-20 px-4 sm:px-8 shadow-t ">
+        <div className="bg-white-500 sm:px-3">
           <ul className="flex w-full justify-between items-center text-black-500">
             <LinkScroll
               activeCLass="active"
@@ -125,7 +123,7 @@ const Header = () => {
                 setActiveLink("about");
               }}
               className={
-                "mx-2 px-4 py-2 flex flex-col items-center text-sm border-t-2 " +
+                "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-sm border-t-2 transition-all " +
                 (activeLink === "about"
                   ? "  border-orange-500 text-orange-500"
                   : " border-transparent")
@@ -157,7 +155,7 @@ const Header = () => {
                 setActiveLink("feature");
               }}
               className={
-                "mx-2 px-4 py-2 flex flex-col items-center text-sm border-t-2 " +
+                "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-sm border-t-2 transition-all " +
                 (activeLink === "feature"
                   ? "  border-orange-500 text-orange-500"
                   : " border-transparent ")
@@ -189,7 +187,7 @@ const Header = () => {
                 setActiveLink("pricing");
               }}
               className={
-                "mx-2 px-4 py-2 flex flex-col items-center text-sm border-t-2 " +
+                "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-sm border-t-2 transition-all " +
                 (activeLink === "pricing"
                   ? "  border-orange-500 text-orange-500"
                   : " border-transparent ")
@@ -221,7 +219,7 @@ const Header = () => {
                 setActiveLink("testimoni");
               }}
               className={
-                "mx-2 px-4 py-2 flex flex-col items-center text-sm border-t-2 " +
+                "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-sm border-t-2 transition-all " +
                 (activeLink === "testimoni"
                   ? "  border-orange-500 text-orange-500"
                   : " border-transparent ")

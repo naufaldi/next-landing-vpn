@@ -1,194 +1,47 @@
-import React from "react";
 import Image from "next/image";
+import React from "react";
 
-import Maps from "../public/assets/HugeGlobal.svg";
-import ArrowBack from "../public/assets/Icon/eva_arrow-next-fill.svg";
-import ArrowNext from "../public/assets/Icon/eva_arrow-back-fill.svg";
-import Testimoni from "./Testimoni";
 const Feature = () => {
   return (
     <div
-      className="bg-gradient-to-b from-white-300 to-white-500 w-full py-14"
-      id="pricing"
+      className="max-w-screen-xl mt-8 mb-6 sm:mt-14 sm:mb-14 px-6 sm:px-8 lg:px-16 mx-auto"
+      id="feature"
     >
-      <div className="max-w-screen-xl  px-16 mx-auto flex flex-col w-full text-center justify-center">
-        <div className="flex flex-col w-full">
-          <h3 className="text-4xl font-medium text-black-600 leading-relaxed">
-            Choose Your Plan
-          </h3>
-          <p className="leading-normal w-6/12 mx-auto my-2">
-            Let's choose the package that is best for you and explore it happily
-            and cheerfully.
-          </p>
-          <div className="grid grid-flow-col grid-cols-3 gap-12 py-12 px-6">
-            <div className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-4 px-12 xl:px-20">
-              <div className="mt-16">
-                <Image src="/assets/Free.png" width={145} height={165} />
-              </div>
-              <p className="text-lg text-black-600 font-medium capitalize my-7">
-                Free Plan
-              </p>
-              <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
-                <li className="relative check custom-list my-2">
-                  Unlimited Bandwitch
-                </li>
-                <li className="relative check custom-list my-2">
-                  Encrypted Connection
-                </li>
-                <li className="relative check custom-list my-2">
-                  No Traffic Logs
-                </li>
-                <li className="relative check custom-list my-2">
-                  Works on All Devices
-                </li>
-              </ul>
-              <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
-                <p className="text-2xl text-black-600 text-center mb-4 ">
-                  Free
-                </p>
-                <button className="font-medium tracking-wide py-2 px-8 border border-orange-500 text-orange-500 bg-white-500 outline-none rounded-l-full rounded-r-full uppercase">
-                  {" "}
-                  Select
-                </button>
-              </div>
-            </div>
-            <div className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-4 px-12 xl:px-20">
-              <div className="mt-16">
-                <Image src="/assets/Standard.png" width={145} height={165} />
-              </div>
-              <p className="text-lg text-black-600 font-medium capitalize my-7">
-                Standard Plan{" "}
-              </p>
-              <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
-                <li className="relative check custom-list my-2">
-                  Unlimited Bandwitch
-                </li>
-                <li className="relative check custom-list my-2">
-                  Encrypted Connection
-                </li>
-                <li className="relative check custom-list my-2">
-                  No Traffic Logs
-                </li>
-                <li className="relative check custom-list my-2">
-                  Works on All Devices
-                </li>
-                <li className="relative check custom-list my-2">
-                  Connect Anyware{" "}
-                </li>
-              </ul>
-              <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
-                <p className="text-2xl text-black-600 text-center mb-4 ">
-                  $9 <span className="text-black-500">/ mo</span>
-                </p>
-                <button className="font-medium tracking-wide py-2 px-8 border border-orange-500 text-orange-500 bg-white-500 outline-none rounded-l-full rounded-r-full uppercase">
-                  {" "}
-                  Select
-                </button>
-              </div>
-            </div>
-            <div className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-4 px-12 xl:px-20">
-              <div className="mt-16">
-                <Image src="/assets/Premium.png" width={145} height={165} />
-              </div>
-              <p className="text-lg text-black-600 font-medium capitalize my-7">
-                Premium Plan{" "}
-              </p>
-              <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
-                <li className="relative check custom-list my-2">
-                  Unlimited Bandwitch
-                </li>
-                <li className="relative check custom-list my-2">
-                  Encrypted Connection
-                </li>
-                <li className="relative check custom-list my-2">
-                  No Traffic Logs
-                </li>
-                <li className="relative check custom-list my-2">
-                  Works on All Devices
-                </li>
-                <li className="relative check custom-list my-2">
-                  Connect Anyware{" "}
-                </li>
-                <li className="relative check custom-list my-2">
-                  Get New Features{" "}
-                </li>
-              </ul>
-              <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
-                <p className="text-2xl text-black-600 text-center mb-4 ">
-                  $12 <span className="text-black-500">/ mo</span>
-                </p>
-                <button className="font-medium tracking-wide py-2 px-8 border border-orange-500 text-orange-500 bg-white-500 outline-none rounded-l-full rounded-r-full uppercase">
-                  {" "}
-                  Select
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="flex flex-col w-full my-16">
-          <h3 className="text-4xl font-medium text-black-600 leading-relaxed w-4/12 mx-auto">
-            Huge Global Network of Fast VPN{" "}
-          </h3>
-          <p className="leading-normal w-6/12 mx-auto my-2 w-6/12">
-            See LaslesVPN everywhere to make it easier for you when you move
-            locations.
-          </p>
-          <div className="py-12 w-full px-8 mt-16">
-            <Maps className="w-full h-auto" />
-          </div>
-          <div className="w-full flex justify-evenly items-center mt-4">
-            {/* <Netflix className="h-18 w-auto" /> */}
-            <img
-              src="/assets/Icon/amazon.png"
-              className="h-14 mt-2 w-auto"
-              alt=""
-            />
-            <img
-              src="/assets/Icon/netflix.png"
-              className="h-14 w-auto"
-              alt=""
-            />
-            <img src="/assets/Icon/reddit.png" className="h-12 w-auto" alt="" />
-            <img
-              src="/assets/Icon/discord.png"
-              className="h-14 w-auto"
-              alt=""
-            />
-            <img
-              src="/assets/Icon/spotify.png"
-              className="h-12 w-auto"
-              alt=""
+      <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-2 gap-8 py-8 my-12">
+        <div className="flex w-full justify-end">
+          <div className="h-full w-full p-4">
+            <Image
+              src="/assets/Illustration2.png"
+              alt="VPN Illustrasi"
+              layout="responsive"
+              quality={100}
+              height={414}
+              width={508}
             />
           </div>
         </div>
-        <div className="flex flex-col w-full my-16" id="testimoni">
-          <h3 className="text-4xl font-medium text-black-600 leading-normal w-4/12 mx-auto">
-            Trusted by Thousands of Happy Customer{" "}
+        <div className="flex flex-col items-end justify-center ml-auto w-full lg:w-9/12">
+          <h3 className="text-3xl lg:text-4xl font-medium leading-relaxed text-black-600">
+            We Provide Many Features You Can Use
           </h3>
-          <p className="leading-normal mx-auto mb-2 mt-4 w-6/12">
-            These are the stories of our customers who have joined us with great
-            pleasure when using this crazy feature.
+          <p className="my-2 text-black-500">
+            You can explore the features that we provide with fun and have their
+            own functions each feature.
           </p>
-          <div className="w-full flex flex-col py-12">
-            <Testimoni />
-          </div>
-          <div className="relative w-full mt-16">
-            <div className="absolute rounded-xl  py-14 px-16 w-full flex justify-between items-center z-10 bg-white-500">
-              <div className="flex flex-col text-left w-5/12">
-                <h5 className="text-black-600 text-3xl leading-relaxed font-medium">
-                  Subscribe Now for <br /> Get Special Features!
-                </h5>
-                <p>Let's subscribe with us and find the fun.</p>
-              </div>
-              <button className="py-4 px-16 text-white-500 font-semibold rounded-lg bg-orange-500">
-                Get Started
-              </button>
-            </div>
-            <div
-              className="absolute bg-black-600 opacity-5 w-11/12 roudned-lg h-56 top-0 mt-8 mx-auto left-0 right-0"
-              style={{ filter: "blur(114px)" }}
-            ></div>
-          </div>
+          <ul className="text-black-500 self-start list-inside ml-8">
+            <li className="relative circle-check custom-list">
+              Powerfull online protection.
+            </li>
+            <li className="relative circle-check custom-list">
+              Internet without borders.
+            </li>
+            <li className="relative circle-check custom-list">
+              Supercharged VPN
+            </li>
+            <li className="relative circle-check custom-list">
+              No specific time limits.
+            </li>
+          </ul>
         </div>
       </div>
     </div>

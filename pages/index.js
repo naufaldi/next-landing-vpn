@@ -1,6 +1,6 @@
 import Head from "next/head";
-import About from "../components/About";
 import Feature from "../components/Feature";
+import Pricing from "../components/Pricing";
 import Hero from "../components/Hero";
 import Layout from "../components/Layout/Layout";
 
@@ -13,8 +13,8 @@ export default function Home() {
       </Head>
       <Layout>
         <Hero />
-        <About />
         <Feature />
+        <Pricing />
       </Layout>
     </>
   );
