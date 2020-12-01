@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Create Next App</title>
+        <title>VPN Best Landingpage </title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>

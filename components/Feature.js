@@ -7,7 +7,10 @@ import ArrowNext from "../public/assets/Icon/eva_arrow-back-fill.svg";
 import Testimoni from "./Testimoni";
 const Feature = () => {
   return (
-    <div className="bg-gradient-to-b from-white-300 to-white-500 w-full py-14">
+    <div
+      className="bg-gradient-to-b from-white-300 to-white-500 w-full py-14"
+      id="pricing"
+    >
       <div className="max-w-screen-xl  px-16 mx-auto flex flex-col w-full text-center justify-center">
         <div className="flex flex-col w-full">
           <h3 className="text-4xl font-medium text-black-600 leading-relaxed">
@@ -18,14 +21,14 @@ const Feature = () => {
             and cheerfully.
           </p>
           <div className="grid grid-flow-col grid-cols-3 gap-12 py-12 px-6">
-            <div className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-4 px-20">
+            <div className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-4 px-12 xl:px-20">
               <div className="mt-16">
                 <Image src="/assets/Free.png" width={145} height={165} />
               </div>
               <p className="text-lg text-black-600 font-medium capitalize my-7">
                 Free Plan
               </p>
-              <ul className="flex flex-col justify-start text-left text-black-500 flex-grow">
+              <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
                 <li className="relative check custom-list my-2">
                   Unlimited Bandwitch
                 </li>
@@ -49,14 +52,14 @@ const Feature = () => {
                 </button>
               </div>
             </div>
-            <div className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-4 px-20">
+            <div className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-4 px-12 xl:px-20">
               <div className="mt-16">
-                <Image src="/assets/Free.png" width={145} height={165} />
+                <Image src="/assets/Standard.png" width={145} height={165} />
               </div>
               <p className="text-lg text-black-600 font-medium capitalize my-7">
-                Free Plan
+                Standard Plan{" "}
               </p>
-              <ul className="flex flex-col justify-start text-left text-black-500 flex-grow">
+              <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
                 <li className="relative check custom-list my-2">
                   Unlimited Bandwitch
                 </li>
@@ -83,14 +86,14 @@ const Feature = () => {
                 </button>
               </div>
             </div>
-            <div className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-4 px-20">
+            <div className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-4 px-12 xl:px-20">
               <div className="mt-16">
-                <Image src="/assets/Free.png" width={145} height={165} />
+                <Image src="/assets/Premium.png" width={145} height={165} />
               </div>
               <p className="text-lg text-black-600 font-medium capitalize my-7">
-                Free Plan
+                Premium Plan{" "}
               </p>
-              <ul className="flex flex-col justify-start text-left text-black-500 flex-grow">
+              <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
                 <li className="relative check custom-list my-2">
                   Unlimited Bandwitch
                 </li>
@@ -158,7 +161,7 @@ const Feature = () => {
             />
           </div>
         </div>
-        <div className="flex flex-col w-full my-16">
+        <div className="flex flex-col w-full my-16" id="testimoni">
           <h3 className="text-4xl font-medium text-black-600 leading-normal w-4/12 mx-auto">
             Trusted by Thousands of Happy Customer{" "}
           </h3>

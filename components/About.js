@@ -3,7 +3,10 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="max-w-screen-xl mt-14 mb-14 px-16 mx-auto">
+    <div
+      className="max-w-screen-xl mt-14 mb-14 px-8 lg:px-16 mx-auto"
+      id="feature"
+    >
       <div className="grid grid-flow-col grid-cols-2 gap-8 py-8 my-12">
         <div className="flex w-full justify-end">
           <div className="h-full w-full p-4">

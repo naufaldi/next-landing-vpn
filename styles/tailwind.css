@@ -13,9 +13,21 @@ body {
 p {
   @apply text-black-500;
 }
+.animation-hover:after {
+  background: none repeat scroll 0 0 transparent;
+  content: "";
+  height: 2px;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  @apply w-0 bg-orange-500 left-1/2 block bottom-0 absolute;
+}
+.animation-active:after {
+  @apply left-0 w-full;
+}
+.animation-hover:hover:after {
+  @apply left-0 w-full;
+}
+
 li.custom-list:before {
-  position: absolute;
-  display: block;
   content: "\2022"; /* bullet point, for screen readers */
   text-indent: -9999999px; /* move the bullet point out of sight */
 
@@ -27,6 +39,7 @@ li.custom-list:before {
   background-position: 0 0.3em;
   font-size: 300%;
   top: -0.35em;
+  @apply absolute block;
 }
 li.circle-check:before {
   background-image: url("/assets/Icon/checklist.svg");
