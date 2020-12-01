@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import "slick-carousel/slick/slick.css";
+
 // import react slick
 import Slider from "react-slick";
 import Image from "next/image";
