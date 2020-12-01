@@ -10,6 +10,10 @@ export default function Home() {
       <Head>
         <title>VPN Best Landingpage </title>
         <link rel="icon" href="/favicon.ico" />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap"
+        />
       </Head>
       <Layout>
         <Hero />
