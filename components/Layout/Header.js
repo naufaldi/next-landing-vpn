@@ -26,7 +26,7 @@ const Header = () => {
           </div>
           <ul className="hidden lg:flex col-start-4 col-end-8 text-black-500  items-center">
             <LinkScroll
-              activeCLass="active"
+              activeClass="active"
               to="about"
               spy={true}
               smooth={true}
@@ -44,7 +44,7 @@ const Header = () => {
               About
             </LinkScroll>
             <LinkScroll
-              activeCLass="active"
+              activeClass="active"
               to="feature"
               spy={true}
               smooth={true}
@@ -62,7 +62,7 @@ const Header = () => {
               Feature
             </LinkScroll>
             <LinkScroll
-              activeCLass="active"
+              activeClass="active"
               to="pricing"
               spy={true}
               smooth={true}
@@ -80,7 +80,7 @@ const Header = () => {
               Pricing
             </LinkScroll>
             <LinkScroll
-              activeCLass="active"
+              activeClass="active"
               to="testimoni"
               spy={true}
               smooth={true}
@@ -114,7 +114,7 @@ const Header = () => {
         <div className="bg-white-500 sm:px-3">
           <ul className="flex w-full justify-between items-center text-black-500">
             <LinkScroll
-              activeCLass="active"
+              activeClass="active"
               to="about"
               spy={true}
               smooth={true}
@@ -146,7 +146,7 @@ const Header = () => {
               About
             </LinkScroll>
             <LinkScroll
-              activeCLass="active"
+              activeClass="active"
               to="feature"
               spy={true}
               smooth={true}
@@ -178,7 +178,7 @@ const Header = () => {
               Feature
             </LinkScroll>
             <LinkScroll
-              activeCLass="active"
+              activeClass="active"
               to="pricing"
               spy={true}
               smooth={true}
@@ -210,7 +210,7 @@ const Header = () => {
               Pricing
             </LinkScroll>
             <LinkScroll
-              activeCLass="active"
+              activeClass="active"
               to="testimoni"
               spy={true}
               smooth={true}

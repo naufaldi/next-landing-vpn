@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^3.0.0",
-    "autoprefixer": "^9.8.6",
+    "autoprefixer": "^9.0.0",
     "framer-motion": "^2.9.5",
     "next": "10.0.3",
     "postcss": "^7.0.35",
@@ -19,7 +19,7 @@
     "react-scroll": "^1.8.1",
     "react-slick": "^0.27.13",
     "slick-carousel": "^1.8.1",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.1"
+    "tailwindcss": "^2.0.1"
   },
   "devDependencies": {
     "babel-plugin-inline-react-svg": "^1.1.2"
