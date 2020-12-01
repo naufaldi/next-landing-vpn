@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 // import react slick
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
 import Image from "next/image";
 import Stars from "../public/assets/Icon/stars.svg";
 import ArrowBack from "../public/assets/Icon/eva_arrow-back-fill.svg";
 import ArrowNext from "../public/assets/Icon/eva_arrow-next-fill.svg";
+
+import "slick-carousel/slick/slick.css";
+
 const Testimoni = ({
   listTestimoni = [
     {

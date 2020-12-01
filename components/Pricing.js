@@ -1,9 +1,10 @@
 import React from "react";
 import Image from "next/image";
-import Maps from "../public/assets/HugeGlobal.svg";
 import Testimoni from "./Testimoni";
 import ButtonPrimary from "./misc/ButtonPrimary";
 import ButtonOutline from "./misc/ButtonOutline.";
+import Maps from "../public/assets/HugeGlobal.svg";
+
 const Pricing = () => {
   return (
     <div
