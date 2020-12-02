@@ -7,6 +7,7 @@ const purgecss = [
       "./components/*.js",
       "./components/**/*.js",
     ],
+    whitelistPatterns: [/^slick-/],
     defaultExtractor: (content) => content.match(/[\w-/:]+(?<!:)/g) || [],
   },
 ];

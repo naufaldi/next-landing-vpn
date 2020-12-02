@@ -1,5 +1,5 @@
 import "../styles/tailwind.css";
-import "slick-carousel/slick/slick.css";
+// import "../styles/slick.css";
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;
