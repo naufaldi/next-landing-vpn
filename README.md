@@ -1,30 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# [Tailwind VPN Landingpage](https://next-landing-vpn.vercel.app/) - Free Landingpage Template Apps
+
+Tailwind VPN Landingpage is an open source, apps landing page template for [Tailwind CSS](https://tailwindcss.com/) and[ NextJS](nextjs.org/) coded by [Faldi](twitter.com/f2aldi) and design from [Didi](https://twitter.com/didiikurniawann).
+
+![Landing Page](./landingpage.png)
 
 ## Getting Started
 
-First, run the development server:
+Choose one of the following options to get started:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+- [Download the latest release](https://github.com/naufaldi/next-landing-vpn/archive/main.zip)
+- Clone the repo: `git clone https://github.com/naufaldi/next-landing-vpn.git`
+- Fork the repo
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## About the Template
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- Template building using NextJS Version 10
+- Tailwind v2.0
 
-## Learn More
+## Feature Template
 
-To learn more about Next.js, take a look at the following resources:
+- Slider using [React Slick](https://react-slick.neostack.com/docs/api)
+- Smooth Scrolling and Active menu using [React Scroll](https://www.npmjs.com/package/react-scroll)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Bugs and Issues
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Have a bug or an issue with this template? [Open a new issue](https://github.com/naufaldi/next-landing-vpn/issues/new) here on GitHub.
 
-## Deploy on Vercel
+## Creator
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+[Tailwind VPN Landingpage](https://next-landing-vpn.vercel.app/) was coded and modified by and is maintained by **[me](https://github.com/naufaldi/)**, and dekstop design by [Didi Kurniawan](https://twitter.com/didiikurniawann)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Copyright and License
+
+Code released under the MIT license.
+
+## To Do List Add Feature
+
+- [] Animation using Framer Motion
