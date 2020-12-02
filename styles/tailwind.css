@@ -1,4 +1,5 @@
 /* purgecss start ignore */
+@import "slick-carousel/slick/slick.css";
 
 @tailwind base;
 @tailwind components;
