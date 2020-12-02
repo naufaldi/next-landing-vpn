@@ -21,7 +21,7 @@ const Header = () => {
           (scrollActive ? " shadow-md pt-0" : " pt-4")
         }
       >
-        <nav className="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto grid grid-flow-col py-4">
+        <nav className="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto grid grid-flow-col py-3 sm:py-4">
           <div className="col-start-1 col-end-2 flex items-center">
             <LogoVPN className="h-8 w-auto" />
           </div>
@@ -124,7 +124,7 @@ const Header = () => {
                 setActiveLink("about");
               }}
               className={
-                "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-sm border-t-2 transition-all " +
+                "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
                 (activeLink === "about"
                   ? "  border-orange-500 text-orange-500"
                   : " border-transparent")
@@ -156,7 +156,7 @@ const Header = () => {
                 setActiveLink("feature");
               }}
               className={
-                "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-sm border-t-2 transition-all " +
+                "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
                 (activeLink === "feature"
                   ? "  border-orange-500 text-orange-500"
                   : " border-transparent ")
@@ -188,7 +188,7 @@ const Header = () => {
                 setActiveLink("pricing");
               }}
               className={
-                "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-sm border-t-2 transition-all " +
+                "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
                 (activeLink === "pricing"
                   ? "  border-orange-500 text-orange-500"
                   : " border-transparent ")
@@ -220,7 +220,7 @@ const Header = () => {
                 setActiveLink("testimoni");
               }}
               className={
-                "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-sm border-t-2 transition-all " +
+                "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
                 (activeLink === "testimoni"
                   ? "  border-orange-500 text-orange-500"
                   : " border-transparent ")
