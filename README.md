@@ -19,6 +19,7 @@ Choose one of the following options to get started:
 
 ## Feature Template
 
+- Using [NextJS Image](https://nextjs.org/docs/api-reference/next/image) for Image Optimization
 - Slider using [React Slick](https://react-slick.neostack.com/docs/api)
 - Smooth Scrolling and Active menu using [React Scroll](https://www.npmjs.com/package/react-scroll)
 
@@ -36,4 +37,4 @@ Code released under the MIT license.
 
 ## To Do List Add Feature
 
-- [] Animation using Framer Motion
+- [ ] Animation using Framer Motion
