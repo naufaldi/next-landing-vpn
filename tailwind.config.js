@@ -1,10 +1,10 @@
 module.exports = {
-  purge: [
-    "./pages/*.js",
-    "./pages/**/*.js",
-    "./components/*.js",
-    "./components/**/*.js",
-  ],
+  // purge: [
+  //   "./pages/*.js",
+  //   "./pages/**/*.js",
+  //   "./components/*.js",
+  //   "./components/**/*.js",
+  // ],
   theme: {
     boxShadow: {
       sm: "0 1px 2px 0 rgba(0, 0, 0, 0.05)",
