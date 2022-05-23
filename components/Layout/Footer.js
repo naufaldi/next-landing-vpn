@@ -24,7 +24,7 @@ const Footer = () => {
               <Instagram className="h-6 w-6" />
             </div>
           </div>
-          <p className="text-gray-400">©2020LaslesVPN</p>
+          <p className="text-gray-400">©{new Date().getFullYear()} - LaslesVPN</p>
         </div>
         <div className=" row-span-2 sm:col-span-2 sm:col-start-7 sm:col-end-9 flex flex-col">
           <p className="text-black-600 mb-4 font-medium text-lg">Product</p>
