@@ -1,5 +1,4 @@
 /* purgecss start ignore */
-
 @tailwind base;
 @tailwind components;
 
@@ -17,13 +16,17 @@ p {
   content: "";
   height: 2px;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
-  @apply w-0 bg-orange-500 left-1/2 block bottom-0 absolute;
+  @apply w-0 bg-blue-500 left-1/2 block bottom-0 absolute;
 }
 .animation-active:after {
   @apply left-0 w-full;
 }
 .animation-hover:hover:after {
   @apply left-0 w-full;
+}
+
+#what {
+  display: inline;
 }
 
 li.custom-list:before {
@@ -59,7 +62,7 @@ li.check:before {
   @apply bg-gray-500;
 }
 .slick-dots .slick-active span {
-  @apply bg-orange-500 rounded-l-full rounded-r-full w-12;
+  @apply bg-blue-500 rounded-l-full rounded-r-full w-12;
 }
 
 /* purgecss end ignore */

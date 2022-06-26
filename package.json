@@ -1,5 +1,5 @@
 {
-  "name": "next-landing-vpn",
+  "name": "sarpin",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -24,5 +24,7 @@
   },
   "devDependencies": {
     "babel-plugin-inline-react-svg": "^1.1.2"
-  }
+  },
+  "keywords": [],
+  "description": ""
 }
