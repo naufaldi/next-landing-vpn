@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import { motion } from "framer-motion";
 
 const Feature = () => {
   return (
@@ -29,18 +30,38 @@ const Feature = () => {
             own functions each feature.
           </p>
           <ul className="text-black-500 self-start list-inside ml-8">
-            <li className="relative circle-check custom-list">
+            <motion.li className="relative circle-check custom-list"  whileHover={{
+              scale : 1.1,
+              transition: {
+                duration: .2
+              }
+            }}>
               Powerfull online protection.
-            </li>
-            <li className="relative circle-check custom-list">
+            </motion.li>
+            <motion.li className="relative circle-check custom-list"  whileHover={{
+              scale : 1.1,
+              transition: {
+                duration: .2
+              }
+            }}>
               Internet without borders.
-            </li>
-            <li className="relative circle-check custom-list">
+            </motion.li>
+            <motion.li className="relative circle-check custom-list"  whileHover={{
+              scale : 1.1,
+              transition: {
+                duration: .2
+              }
+            }}>
               Supercharged VPN
-            </li>
-            <li className="relative circle-check custom-list">
+            </motion.li>
+            <motion.li className="relative circle-check custom-list"  whileHover={{
+              scale : 1.1,
+              transition: {
+                duration: .2
+              }
+            }}>
               No specific time limits.
-            </li>
+            </motion.li>
           </ul>
         </div>
       </div>

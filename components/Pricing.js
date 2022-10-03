@@ -4,6 +4,7 @@ import Testimoni from "./Testimoni";
 import ButtonPrimary from "./misc/ButtonPrimary";
 import ButtonOutline from "./misc/ButtonOutline.";
 import Maps from "../public/assets/HugeGlobal.svg";
+import { motion } from "framer-motion";
 
 const Pricing = () => {
   return (
@@ -21,7 +22,12 @@ const Pricing = () => {
             and cheerfully.
           </p>
           <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-3 gap-4 lg:gap-12 py-8 lg:py-12 px-6 sm:px-0 lg:px-6">
-            <div className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-4 px-6 lg:px-12 xl:px-20">
+            <motion.div className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-4 px-6 lg:px-12 xl:px-20" whileHover={{
+              scale : 1.1,
+              transition: {
+                duration: .2
+              }
+            }}>
               <div className="p-4 lg:p-0 mt-6 lg:mt-16">
                 <Image
                   src="/assets/Free.png"
@@ -53,8 +59,13 @@ const Pricing = () => {
                 </p>
                 <ButtonOutline>Select</ButtonOutline>
               </div>
-            </div>
-            <div className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-4 px-6 lg:px-12 xl:px-20">
+            </motion.div>
+            <motion.div className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-4 px-6 lg:px-12 xl:px-20"  whileHover={{
+              scale : 1.1,
+              transition: {
+                duration: .2
+              }
+            }}>
               <div className="p-4 lg:p-0 mt-6 lg:mt-16">
                 <Image
                   src="/assets/Standard.png"
@@ -89,8 +100,13 @@ const Pricing = () => {
                 </p>
                 <ButtonOutline>Select</ButtonOutline>
               </div>
-            </div>
-            <div className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-4 px-6 lg:px-12 xl:px-20">
+            </motion.div>
+            <motion.div className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-4 px-6 lg:px-12 xl:px-20"  whileHover={{
+              scale : 1.1,
+              transition: {
+                duration: .2
+              }
+            }}>
               <div className="p-4 lg:p-0 mt-6 lg:mt-16">
                 <Image
                   src="/assets/Premium.png"
@@ -129,7 +145,7 @@ const Pricing = () => {
 
                 <ButtonOutline>Select</ButtonOutline>
               </div>
-            </div>
+            </motion.div>
           </div>
         </div>
         <div className="flex flex-col w-full my-16">
