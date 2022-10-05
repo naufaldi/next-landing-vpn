@@ -8,8 +8,9 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-    matrix:
-      node-version: [16]
+    strategy:
+      matrix:
+        node-version: [16]
     steps:
       - uses: actions/checkout@v3
       - name: Use Node.js ${{ matrix.node-version }}
