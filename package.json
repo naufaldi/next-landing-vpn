@@ -11,8 +11,8 @@
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^3.0.0",
     "autoprefixer": "^10.0.4",
-    "framer-motion": "^2.9.5",
-    "next": "10.0.3",
+    "framer-motion": "7.5.2",
+    "next": "12.0.1",
     "postcss": "^8.1.10",
     "postcss-import": "^13.0.0",
     "react": "17.0.1",
