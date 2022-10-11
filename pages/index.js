@@ -3,14 +3,12 @@ import Feature from "../components/Feature";
 import Pricing from "../components/Pricing";
 import Hero from "../components/Hero";
 import Layout from "../components/Layout/Layout";
+import SeoHead from "../components/SeoHead";
 
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>VPN Best Landingpage </title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <SeoHead title="VPN Best Landingpage" />
       <Layout>
         <Hero />
         <Feature />
