@@ -6,10 +6,10 @@ const defaultMeta = {
   siteName: 'LaslesVPN',
   description:
     'Landing page VPN LaslesVPN Best VPN For Privacy, Country and Cheapest',
-  url: 'https://next-landing-vpn.vercel.app',
+  url: 'https://next-landing-vpn-five.vercel.app',
   type: 'website',
   robots: 'follow, index',
-  image: 'https://next-landing-vpn.vercel.app/assets/card-image.png',
+  image: 'https://next-landing-vpn-five.vercel.app/assets/card-image.png',
 };
 
 const SeoHead = (props) => {
