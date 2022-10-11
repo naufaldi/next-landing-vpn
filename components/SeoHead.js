@@ -146,10 +146,19 @@ const favicons = [
     href: '/favicon/apple-icon-180x180.png',
   },
   {
+    rel: 'mask-icon',
+    href: '/favicon/safari-pinned-tab.svg',
+    color: '#F59A9A',
+  },
+  {
+    rel: 'icon',
+    href: '/favicon/favicon.ico',
+  },
+  {
     rel: 'icon',
     type: 'image/png',
-    sizes: '192x192',
-    href: '/favicon/android-icon-192x192.png',
+    sizes: '16x16',
+    href: '/favicon/favicon-16x16.png',
   },
   {
     rel: 'icon',
@@ -166,12 +175,12 @@ const favicons = [
   {
     rel: 'icon',
     type: 'image/png',
-    sizes: '16x16',
-    href: '/favicon/favicon-16x16.png',
+    sizes: '192x192',
+    href: '/favicon/android-icon-192x192.png',
   },
   {
     rel: 'manifest',
-    href: '/favicon/manifest.json',
+    href: '/site.webmanifest',
   },
 ];
 
