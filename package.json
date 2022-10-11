@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "next build && next export"
+    "export": "next build && next export",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write './**/*.{js,jsx,html,css,md,json}' --config ./.prettierrc"
   },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^3.0.0",
@@ -23,6 +25,15 @@
     "tailwindcss": "^3.1.8"
   },
   "devDependencies": {
-    "babel-plugin-inline-react-svg": "^1.1.2"
+    "babel-plugin-inline-react-svg": "^1.1.2",
+    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "prettier": "^2.7.1"
   }
 }
