@@ -1,4 +1,3 @@
-import Head from "next/head";
 import Feature from "../components/Feature";
 import Pricing from "../components/Pricing";
 import Hero from "../components/Hero";
@@ -8,7 +7,7 @@ import SeoHead from "../components/SeoHead";
 export default function Home() {
   return (
     <>
-      <SeoHead title="VPN Best Landingpage" />
+      <SeoHead title="VPN Best Landing Page" />
       <Layout>
         <Hero />
         <Feature />
