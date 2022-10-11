@@ -62,12 +62,12 @@ const SeoHead = (props) => {
       {favicons.map((linkProps) => (
         <link key={linkProps.href} {...linkProps} />
       ))}
-      <meta name='msapplication-TileColor' content='#F53838' />
+      {/* <meta name='msapplication-TileColor' content='#F53838' />
       <meta
         name='msapplication-TileImage'
         content='/favicon/ms-icon-144x144.png'
-      />
-      {/* <meta name="msapplication-config" content="/favicon/browserconfig.xml" /> */}
+      /> */}
+      <meta name="msapplication-config" content="/favicon/browserconfig.xml" />
       <meta name='theme-color' content='#F53838' />
     </Head>
   );
