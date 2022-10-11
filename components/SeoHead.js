@@ -9,12 +9,12 @@ const defaultMeta = {
   description:
     'Landing page VPN LaslesVPN Best VPN For Privacy, Country and Cheapest',
   // change base url of your web (without '/' at the end)
-  url: 'https://next-landing-vpn-five.vercel.app',
+  url: 'https://next-landing-vpn.vercel.app',
   type: 'website',
   robots: 'follow, index',
   // change with url of your image (recommended dimension = 1.91:1)
   // used in twitter, facebook, etc. card when link copied in tweet/status 
-  image: 'https://next-landing-vpn-five.vercel.app/assets/card-image.png',
+  image: 'https://next-landing-vpn.vercel.app/assets/card-image.png',
   author: 'Lorem Ipsum'
 };
 
