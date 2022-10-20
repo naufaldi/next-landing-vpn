@@ -5,11 +5,11 @@ import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 
 const features = [
-  "Powerfull online protection.",
+  "Powerful online protection.",
   "Internet without borders.",
   "Supercharged VPN",
-  "No specific time limits."
-]
+  "No specific time limits.",
+];
 
 const Feature = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
@@ -33,34 +33,36 @@ const Feature = () => {
           </motion.div>
         </ScrollAnimationWrapper>
         <ScrollAnimationWrapper>
-
-        <motion.div className="flex flex-col items-end justify-center ml-auto w-full lg:w-9/12" variants={scrollAnimation}>
-          <h3 className="text-3xl lg:text-4xl font-medium leading-relaxed text-black-600">
-            We Provide Many Features You Can Use
-          </h3>
-          <p className="my-2 text-black-500">
-            You can explore the features that we provide with fun and have their
-            own functions each feature.
-          </p>
-          <ul className="text-black-500 self-start list-inside ml-8">
-            {features.map((feature, index) => (
-              <motion.li
-                className="relative circle-check custom-list"
-                custom={{duration: 2 + index}}
-                variants={scrollAnimation}
-                key={feature}
-                whileHover={{
-                scale : 1.1,
-                transition: {
-                  duration: .2
-                }
-                }}>
+          <motion.div
+            className="flex flex-col items-end justify-center ml-auto w-full lg:w-9/12"
+            variants={scrollAnimation}
+          >
+            <h3 className="text-3xl lg:text-4xl font-medium leading-relaxed text-black-600">
+              We provide many features you can use.
+            </h3>
+            <p className="my-2 text-black-500">
+              You can explore the features that we provide while having fun.
+              Each feature has its own function.
+            </p>
+            <ul className="text-black-500 self-start list-inside ml-8">
+              {features.map((feature, index) => (
+                <motion.li
+                  className="relative circle-check custom-list"
+                  custom={{ duration: 2 + index }}
+                  variants={scrollAnimation}
+                  key={feature}
+                  whileHover={{
+                    scale: 1.1,
+                    transition: {
+                      duration: 0.2,
+                    },
+                  }}
+                >
                   {feature}
-              </motion.li>
-              )
-            )}
-          </ul>
-        </motion.div>
+                </motion.li>
+              ))}
+            </ul>
+          </motion.div>
         </ScrollAnimationWrapper>
       </div>
     </div>
