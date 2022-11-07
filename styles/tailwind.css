@@ -3,6 +3,19 @@
 @tailwind base;
 @tailwind components;
 
+@layer components {
+  .socialLink {
+    @apply mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md cursor-pointer;
+  }
+
+  .footerLink {
+    @apply my-2 hover:text-orange-500 cursor-pointer transition-all;
+  }
+  .headerLinkBottom {
+    @apply mx-1 sm:mx-2 px-3 sm:px-4 py-2 cursor-pointer flex flex-col items-center text-xs border-t-2 transition-all;
+  }
+}
+
 html {
   font-family: "Rubik", sans-serif;
 }
