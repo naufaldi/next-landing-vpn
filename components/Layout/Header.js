@@ -23,12 +23,14 @@ const Header = () => {
       >
         <nav className="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto grid grid-flow-col py-3 sm:py-4">
           <div className="col-start-1 col-end-4 flex items-center">
-            <Image
-              src="/assets/rjh_logo.png"
-              width={160}
-              height={40}
-              alt="RJH"
-            />
+            <Link href="/">
+              <Image
+                src="/assets/rjh_logo.png"
+                width={160}
+                height={40}
+                alt="RJH"
+              />
+            </Link>
           </div>
           <ul className="hidden lg:flex justify-end text-black-500 items-center">
             <LinkScroll

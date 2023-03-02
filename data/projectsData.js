@@ -6,7 +6,7 @@ const projectsData = {
       "description": "This hostel is in this place",
       "imgSrc": '/sri-veer-teja-jat-hostel-byaver.jpg', //missing
       "data": '/assets/hostel/ajmer/sri-veer-teja-jat-hostel-byaver.pdf', 
-      "href": "/assets/hostel/ajmer/sri-veer-teja-jat-hostel-byaver"
+      "href": "teja-hostel"
     },
     {
       "id": 2,

@@ -1,4 +1,4 @@
-const data = [
+const DISTRICT = [
     {
         name: "Ajmer",
         url: "ajmer",
@@ -146,6 +146,6 @@ const data = [
     }
 ]
 
-export default data;
+export default DISTRICT;
 
 
