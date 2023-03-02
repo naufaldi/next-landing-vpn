@@ -20,7 +20,7 @@ const projectsData = {
       "id": 3,
       "title": "जाट छात्रावास, विजयनगर",
       "description": "All boys hostel description",
-      "imgSrc": '/assets/hostel/ajmer/vijay-nagar.jpg',//missing
+      "imgSrc": '/assets/hostel/ajmer/vijaynagar.jpg',//missing
       "data": '/assets/hostel/ajmer/vijay-nagar.pdf',  
       "href": "vijay-nagar"
     },
