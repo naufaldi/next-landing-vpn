@@ -86,7 +86,7 @@ const Header = () => {
               People Behind Us
             </LinkScroll>
             <ButtonOutline>
-                <Link href="/hostels">Veiw All Hostels</Link>
+                <Link href="/hostels">View All Hostels</Link>
             </ButtonOutline>
           </ul>
         </nav>

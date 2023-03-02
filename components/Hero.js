@@ -46,7 +46,7 @@ const Hero = ({
               Rajasthan Jat Hostels, a network of hostels run by community aimed at connecting students from all over Rajasthan and providing them with mentorship opportunities, career guidance and right direction to society.
             </p>
             <ButtonPrimary>
-              <Link href="/hostels">Veiw All Hostels</Link>
+              <Link href="/hostels">View All Hostels</Link>
             </ButtonPrimary>
           </div>
           <div className="flex w-full">
