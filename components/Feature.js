@@ -20,8 +20,8 @@ const Feature = () => {
       <section class="mb-32 text-gray-800">
         <div class="flex justify-center">
           <div class="text-center max-w-[700px]">
-            <p class="uppercase text-green-500 font-bold mb-6">Our Aim</p>
-            <h2 class="text-3xl font-bold mb-6">Why?</h2>
+            <p class="uppercase text-green-500 text-4xl font-bold mb-6">Our Aim</p>
+            <h2 class="text-2xl font-bold mb-6">Why?</h2>
             <p class="text-black-500 mb-12">
               Our aim is to create a network of JAT students who are empowered to become leaders in their communities and make a positive impact on society. By providing mentorship and guidance, we hope to help students achieve their goals and contribute to a brighter future for all.
         </p>
