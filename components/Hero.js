@@ -18,7 +18,7 @@ const Hero = ({
       icon: "/assets/Icon/gridicons_location.svg",
     },
     {
-      name: "Server",
+      name: "Servers",
       number: "50",
       icon: "/assets/Icon/bx_bxs-server.svg",
     },
