@@ -14,15 +14,15 @@ const Footer = () => {
             virtual network that has unique features and has high security.
           </p>
           <div className="flex w-full mt-2 mb-8 -mx-2">
-            <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
+            <a href="https://www.facebook.com" target="_blank" className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
               <Facebook className="h-6 w-6" />
-            </div>
-            <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
+            </a>
+            <a href="https://twitter.com/f2aldi" target="_blank" className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
               <Twitter className="h-6 w-6" />
-            </div>
-            <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
+            </a>
+            <a href="https://www.instagram.com/" target="_blank" className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
               <Instagram className="h-6 w-6" />
-            </div>
+            </a>
           </div>
           <p className="text-gray-400">©{new Date().getFullYear()} - LaslesVPN</p>
         </div>
