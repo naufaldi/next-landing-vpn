@@ -2,6 +2,7 @@ import React from "react";
 import LogoVPN from "../../public/assets/Logo.svg";
 import Facebook from "../../public/assets/Icon/facebook.svg";
 import Twitter from "../../public/assets/Icon/twitter.svg";
+import TwitterX from "../../public/assets/Icon/twitterx.svg";
 import Instagram from "../../public/assets/Icon/instagram.svg";
 const Footer = () => {
   return (
@@ -18,7 +19,7 @@ const Footer = () => {
               <Facebook className="h-6 w-6" />
             </div>
             <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
-              <Twitter className="h-6 w-6" />
+              <TwitterX className="h-6 w-6" />
             </div>
             <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
               <Instagram className="h-6 w-6" />
