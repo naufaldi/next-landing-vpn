@@ -1,6 +1,4 @@
-import React, { useState } from "react";
-
-// import react slick
+import { useState } from "react";
 import Slider from "react-slick";
 import Image from "next/image";
 import Stars from "../public/assets/Icon/stars.svg";
@@ -49,14 +47,14 @@ const Testimoni = ({
 }) => {
   const settings = {
     dots: true,
-    customPaging: function (i) {
+    customPaging: function (i: any) {
       return (
         <a className="">
           <span className="mx-2 rounded-l-full rounded-r-full h-4 w-4 block cursor-pointer transition-all "></span>
         </a>
       );
     },
-    dotsClass: "slick-dots w-max absolute mt-20  ",
+    dotsClass: "slick-dots w-max absolute button-[-60px]",
     infinite: true,
     speed: 500,
     slidesToShow: 3,
@@ -79,15 +77,15 @@ const Testimoni = ({
       },
     ],
   };
-  const [sliderRef, setSliderRef] = useState(null);
+  const [sliderRef, setSliderRef] = useState<any>(null);
 
   return (
     <>
       <Slider
         {...settings}
-        arrows={false}
+        arrows={true}
         ref={setSliderRef}
-        className="flex items-stretch justify-items-stretch"
+        className="flex items-stretch justify-items-stretch pb-10"
       >
         {listTestimoni.map((listTestimonis, index) => (
           <div className="px-3 flex items-stretch" key={index}>
@@ -112,7 +110,7 @@ const Testimoni = ({
                 <div className="flex flex-none items-center ml-auto order-1 xl:order-2">
                   <p className="text-sm">{listTestimonis.rating}</p>
                   <span className="flex ml-4">
-                    <Stars className="h-4 w-4" />
+                    <Image src={Stars} className="h-4 w-4" alt="Stars" />
                   </span>
                 </div>
               </div>
@@ -127,13 +125,13 @@ const Testimoni = ({
             className="mx-4 flex items-center justify-center h-14 w-14 rounded-full bg-white border-orange-500 border hover:bg-orange-500 hover:text-white-500 transition-all text-orange-500 cursor-pointer"
             onClick={sliderRef?.slickPrev}
           >
-            <ArrowBack className="h-6 w-6 " />
+            <Image src={ArrowBack} className="h-6 w-6 " alt="ArrowBack" />
           </div>
           <div
             className="flex items-center justify-center h-14 w-14 rounded-full bg-white border-orange-500 border hover:bg-orange-500 hover:text-white-500 transition-all text-orange-500 cursor-pointer"
             onClick={sliderRef?.slickNext}
           >
-            <ArrowNext className="h-6 w-6" />
+            <Image src={ArrowNext} className="h-6 w-6" alt="ArrowNext" />
           </div>
         </div>
       </div>
