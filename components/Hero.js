@@ -9,17 +9,17 @@ const Hero = ({
   listUser = [
     {
       name: "Users",
-      number: "390",
+      number: "3M",
       icon: "/assets/Icon/heroicons_sm-user.svg",
     },
     {
       name: "Locations",
-      number: "20",
+      number: "200",
       icon: "/assets/Icon/gridicons_location.svg",
     },
     {
       name: "Server",
-      number: "50",
+      number: "1000",
       icon: "/assets/Icon/bx_bxs-server.svg",
     },
   ],
@@ -37,11 +37,11 @@ const Hero = ({
             variants={scrollAnimation}>
             <div className=" flex flex-col justify-center items-start row-start-2 sm:row-start-1">
               <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-black-600 leading-normal">
-                Want anything to be easy with <strong>LaslesVPN</strong>.
+                Protect yourself with <strong>Prism One</strong>.
               </h1>
               <p className="text-black-500 mt-4 mb-6">
                 Provide a network for all your needs with ease and fun using
-                LaslesVPN discover interesting features from us.
+                Prism One discover interesting features from us.
               </p>
               <ButtonPrimary>Get Started</ButtonPrimary>
             </div>

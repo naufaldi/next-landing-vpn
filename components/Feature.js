@@ -7,7 +7,7 @@ import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 const features = [
   "Powerfull online protection.",
   "Internet without borders.",
-  "Supercharged VPN",
+  "Supercharged Security",
   "No specific time limits."
 ]
 

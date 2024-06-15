@@ -4,10 +4,10 @@ import { useRouter } from "next/router";
 
 // Default value for some meta data
 const defaultMeta = {
-  title: 'LaslesVPN',
-  siteName: 'LaslesVPN',
+  title: 'PrismSecurity',
+  siteName: 'PrismSecurity',
   description:
-    'Landing page VPN LaslesVPN Best VPN For Privacy, Country and Cheapest',
+    'Prism One - #1 Leader in Security and Privacy',
   // change base url of your web (without '/' at the end)
   url: 'https://next-landing-vpn.vercel.app',
   type: 'website',
